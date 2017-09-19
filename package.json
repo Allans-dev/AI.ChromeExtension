@@ -1,0 +1,23 @@
+{
+  "name": "SenecaOneChromeExtension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allans-dev/SenecaOneChromeExtension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Allans-dev/SenecaOneChromeExtension/issues"
+  },
+  "homepage": "https://github.com/Allans-dev/SenecaOneChromeExtension#readme",
+  "dependencies": {
+    "indico.io": "^0.10.5"
+  }
+}

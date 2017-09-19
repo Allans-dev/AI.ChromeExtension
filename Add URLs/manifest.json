@@ -7,7 +7,7 @@
 
   "browser_action": {
     "default_icon": "Favicon@2x.png",
-    "default_popup": "popup.html",
+    "default_popup": "displayIndicoResponse.html",
     "default_title": "Click here!"
   },
   "permissions": [
