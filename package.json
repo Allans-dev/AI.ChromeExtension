@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Allans-dev/SenecaOneChromeExtension#readme",
   "dependencies": {
+    "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "indico.io": "^0.10.5",
     "mongoose": "^4.11.12"
