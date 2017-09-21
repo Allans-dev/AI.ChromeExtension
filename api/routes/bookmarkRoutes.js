@@ -1,4 +1,5 @@
 'use strict';
+
 module.exports = function(app) {
   const bookmark = require('../controllers/bookmarkController');
 
