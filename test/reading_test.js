@@ -13,8 +13,6 @@ describe('reading bookmarks from db', () => {
     it('finds all bookmarks with url of Joe', (done) => {
         Bookmark.find({ url: 'Joe' })
             .then((bookmarks) => {
-                console.log(bookmarks[0]._id.toString());
-                console.log(joe._id.toString());
                 assert(bookmarks[0]._id.toString() === joe._id.toString());
                 done();
             });

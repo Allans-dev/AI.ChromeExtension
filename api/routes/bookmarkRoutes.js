@@ -2,7 +2,6 @@
 module.exports = function(app) {
   const bookmark = require('../controllers/bookmarkController');
 
-  // todoList Routes
   app.route('/bookmarks')
     .get(bookmark.list_all_bookmarks)
     .post(bookmark.create_a_bookmark);

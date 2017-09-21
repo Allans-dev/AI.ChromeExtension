@@ -13,7 +13,7 @@ exports.list_all_bookmarks = function(req, res) {
 
 exports.create_a_bookmark = function(req, res) {
   let new_bookmark = new Bookmark(req.body);
-  new_bookmark.save(function(err, bookmark  ) {
+  new_bookmark.save(function(err, bookmark) {
     if (err)
       res.send(err);
     res.json(bookmark);
