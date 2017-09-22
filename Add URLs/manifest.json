@@ -12,9 +12,17 @@
     "default_icon": "Favicon@2x.png",
     "default_title": "Add bookmark"
   },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["content_script.js"]
+    }
+],
   "permissions": [
     "activeTab",
     "storage",
-    "https://apiv2.indico.io/keywords?version=[2]"
+    "tabs",
+    "http://*/*",
+    "https://*/*"
   ]
 }
