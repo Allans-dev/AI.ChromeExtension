@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Seneca One add Bookmark",
+  "name": "Add Bookmark",
   "description": "Posts URL to database.",
   "version": "2.0",
   "background": {
